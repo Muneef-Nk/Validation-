@@ -27,7 +27,7 @@ function Validation(){
      }
 
      if(cpassword==""){
-          alert("please confirm password");
+          alert("please Enter confirm password");
           document.form1.cpassword.focus();
           return false;
      }
@@ -40,7 +40,7 @@ function Validation(){
      }
 
      if(password==cpassword){
-          window.location.href="./hi.html"
+          window.location.href="./pass.html"
      }
 
 
