@@ -24,9 +24,25 @@
           }
           .image{
                 display: block;
+                width: 400px;
                 margin-left: auto;
                 margin-right: auto;
                 
+          }
+          button{
+               position: absolute;
+               left: 50%;
+               top: 85%;
+               transform: translate(-50% , -85%);
+               width: 80px;
+               height: 40px;
+               background-color: black;
+               color: white;
+               font-size: large;
+               border-radius: 20px;
+          }
+          button:hover{
+               background-color: rgba(80, 79, 79, 0.97);
           }
      </style>
 
@@ -37,5 +53,13 @@
     </div>
 
     <img class="image" src="./Smile.png" alt="Loading...">
+    <button onclick="loading()">Next</button>
+
+    <script>
+function loading(){
+     window.location.href=""
+}
+
+    </script>
 </body>
 </html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Loading spinner</title>
+     <style>
+          *{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+
+  
+}
+h2{
+     text-align: center;
+     padding: 20px 0;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+     background-color: #00000031;
+     height: 100vh;
+     display: grid;
+     place-content: center;
+}
+.spinner{
+     width: 10rem;
+     height: 10rem;
+     border: 1rem solid #66a3ff7b;
+     border-top-color:  #3385ff;
+     border-radius: 50%;
+     animation: spin .4s infinite linear ;
+}
+
+@keyframes spin {
+     to{
+          transform: rotate(1turn);
+     }
+}
+
+
+     </style>
+</head>
+<body>
+     <div class="spinner">
+     </div>
+    <div >
+     <h2>Please Waite ..</h2>
+    </div>
+</body>
+</html>

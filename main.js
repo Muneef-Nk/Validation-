@@ -40,7 +40,8 @@ function Validation(){
      }
 
      if(password==cpassword){
-          window.location.href="./pass.html"
+          alert('You have successfully Sign Up!')
+          window.location.href="./loading.html"
      }
 
 

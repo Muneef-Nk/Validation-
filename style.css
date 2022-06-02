@@ -1,0 +1,83 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family:'Times New Roman', Times, serif
+}
+
+
+h1{
+     color: rgb(25, 4, 102);
+     margin-bottom: 20px;
+     padding: 20px 0;
+}
+h1:hover{
+     color: black;
+}
+
+body{
+     background-color: azure;
+}
+.container{
+     width: 400px;
+     height: 505px;
+     padding-bottom: 200px;
+     background-color: rgb(255, 255, 255);
+     margin: 60px auto;
+     text-align: center;
+     border-radius: 20px;
+     box-shadow: 3px 3px 10px rgba(0,0,0,.6);
+}
+::placeholder{
+     color: rgb(25, 4, 102);
+     opacity: .8;
+}
+input{
+     background-color: none ;
+     width: 90%;
+     height: 40px;
+    padding: 0 0 0 6%;
+     border-radius: 30px;
+     border: none;
+     box-shadow: 3px 3px 5px rgba(0,0,0,.3),
+                -3px -3px 5px rgba(0,0,0,.3);
+}
+input:hover{
+     
+     background-color: rgba(0, 0, 0, 0.237);
+
+}
+
+input:focus{
+     background-color: rgba(255, 255, 255, 0.952);
+     font-weight: bold;
+}
+label{
+     color: rgb(26, 17, 47);
+     margin-bottom: 10px;
+     display: block;
+     text-transform:capitalize;
+     font-weight: bold;
+     font-size: 12px;
+     
+}
+
+button{
+     width: 100px;
+     height: 40px;
+     border-radius: 30px;
+     border: none;
+     background-color:rgba(18, 4, 69, 0.974) ;
+     color: white;
+     padding: 10px;
+    
+}
+button:hover{
+     background-color: rgba(0, 0, 0, 0.237);
+     color: rgb(0, 0, 0);
+
+}
+
+button:active{
+     background-color: rgb(19, 135, 19);
+}
